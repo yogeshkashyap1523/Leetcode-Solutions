@@ -2,7 +2,8 @@ class Solution {
 public:
     bool isMonotonic(vector<int>& nums) {
         int n=nums.size();
-        if(n==0){return true;}
+        if(n==0)
+            return true;
         int i;
         for(i =0;i<n-1;i++)
             {
